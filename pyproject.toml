@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "enrichmap"
-version = "0.1.12"
+version = "0.1.13"
 description = "EnrichMap: Spatially informed enrichment analysis for functional interpretation of spatial transcriptomics"
 authors = [
     { name = "C. Celik", email = "cenk.celik@proton.me" }
@@ -25,7 +25,6 @@ dependencies = [
     "scipy",
     "scikit-learn",
     "statannotations",
-    "squidpy",
     "pygam",
     "scikit-gstat",
     "adjustText",
